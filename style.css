@@ -185,6 +185,58 @@ p {
 
 }
 
+.articlebox {
+    position: relative;
+    top: 590px;
+    padding: 100px;
+    background-color: hsl(0, 0%, 98%);
+}
+ .artgrid {
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+.headart {
+    margin-bottom: 35px;
+}
+.headart h2 {
+    font-weight: 100;
+}
+.artgrid div {
+    width: 100%;
+    max-width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+.artgrid p {
+    margin-bottom: 0px;
+}
+.artgrid img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.artgrid h3 {
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.artgrid h3:hover {
+    cursor: pointer;
+    color: hsl(136, 65%, 51%);
+}
+.temp p:first-child {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.temp {
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+
+
 @media screen and (max-width:600px) {
     .bgpic-mobile img {
         width: 100%;
@@ -228,7 +280,6 @@ p {
     .box {
         top: 390px;
         padding: 20px;
-        width: ;
     }
     .headeasy {
         text-align: center;
@@ -243,5 +294,24 @@ p {
     .grid div {
         text-align: center;
         max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .articlebox {
+        top: 390px;
+        padding: 20px;
+        padding-top: 70px;
+    }
+    .headart h2 {
+        width: 254px;
+        text-align: end;
+    }
+    .artgrid {
+        flex-direction: column;
+    }
+    .artgrid div {
+        max-width: 350px;
+        margin-bottom: 30px;
     }
 }
