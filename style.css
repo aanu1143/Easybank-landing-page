@@ -128,8 +128,8 @@ body {
 
 
 .container {
-    position: absolute;
-    top: 30%;
+    position: relative;
+    top: 170px;
     width: 100%;
     left: 10%;
     max-width: 500px;
@@ -149,7 +149,7 @@ p {
 
 .box {
     position: relative;
-    top: 590px;
+    top: 297px;
     padding: 100px;
     background-color: hsl(220, 16%, 96%);
     z-index: -1;
@@ -187,7 +187,7 @@ p {
 
 .articlebox {
     position: relative;
-    top: 590px;
+    top: 295px;
     padding: 100px;
     background-color: hsl(0, 0%, 98%);
 }
@@ -303,7 +303,7 @@ footer {
     position: relative;
     background-color: hsl(233, 26%, 24%);
     height: 200px;
-    top: 575px;
+    top: 370px;
 }
 
 .images {
